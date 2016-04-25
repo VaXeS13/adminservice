@@ -1,4 +1,27 @@
 body
 {
-
+	background-color: #666666;
+}
+.navbar
+{
+	background-color: black;
+	margin-bottom: 0;
+	z-index: 9999;
+	border: 0;
+	font-size: 1em !important;
+	line-height: 2.85707143 !important;
+	letter-spacing: 4px;
+	border-radius: 0;
+}
+.navbar li a, .navbar
+{
+	color: #FFF !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+	color: #F4511E !important;
+}
+.navbar-header
+{
+	color: white;
 }
