@@ -1,4 +1,40 @@
 body
 {
+	background-color: #666666;
+}
+.navbar
+{
+	height:100px;
+	background-color: black;
+	margin-bottom: 0;
+	z-index: 9;
+	border: 0;
+	font-size: 1em !important;
+	line-height: 2.85707143 !important;
+	letter-spacing: 3px;
+	border-radius: 0;
+}
+.navbar li a, .navbar
+{
+	color: #FFF !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+	color: #F4511E !important;
+}
+.navbar-header
+{
+	color: white;
+}
+.logo{
+width:150px;position:absolute; z-index: 9999; margin-top:-5px;
+}
+@media screen and (max-width:768px) {
 
+.navbar{
+	height:0%;
+}
+.logo{
+width:70px;
+}
 }
